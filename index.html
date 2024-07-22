@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/office/80/cloud.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Previsão do tempo</title>
+</head>
+
+<body>
+    <div class="bigger-box">
+        <input type="text" placeholder="Digite o nome da cidade" class="input-city">
+        <button class="btn-search" onclick="clickBtn()">
+            <img src="https://www.svgrepo.com/show/488200/find.svg" alt="lupa" class="img-search">
+        </button>
+
+        <div class="middle-box">
+            <h2 id="city">Tempo em São Paulo</h2>
+            <p id="weather">26°C</p>
+
+            <div class="little-box">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="icone do tempo" id="img-cloud">
+                <p id="text">Nublado</p>
+            </div>
+
+            <p id="air">Umidade: 76%</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
